@@ -1,0 +1,501 @@
+Invoice_ID,Product,Category,Branch,City,Customer_Type,Quantity,Unit_Price_INR,Payment_Method,Rating,Sales_INR
+INV0001,Snacks,Snacks,C,Mumbai,Normal,6,32.76,Cash,4.9,196.56
+INV0002,Tea,Beverages,C,Mumbai,Member,1,89.03,Credit card,2.7,89.03
+INV0003,Soap,Personal Care,C,Mumbai,Normal,3,51.61,Cash,3.1,154.83
+INV0004,Rice,Grocery,B,Vijayawada,Normal,3,112.1,Credit card,3.3,336.3
+INV0005,Milk,Dairy,B,Vijayawada,Member,5,54.49,E-wallet,4.0,272.45
+INV0006,Shampoo,Personal Care,C,Mumbai,Normal,1,132.05,Cash,3.7,132.05
+INV0007,Snacks,Snacks,A,Hyderabad,Member,3,36.42,E-wallet,5.0,109.26
+INV0008,Snacks,Snacks,C,Mumbai,Normal,1,36.79,E-wallet,4.7,36.79
+INV0009,Milk,Dairy,B,Vijayawada,Normal,5,58.24,UPI,4.3,291.2
+INV0010,Tea,Beverages,A,Hyderabad,Normal,4,102.55,Cash,4.1,410.2
+INV0011,Coffee,Beverages,A,Hyderabad,Member,3,171.51,Credit card,4.3,514.53
+INV0012,Shampoo,Personal Care,C,Mumbai,Member,3,123.03,E-wallet,3.4,369.09
+INV0013,Rice,Grocery,A,Hyderabad,Member,1,106.9,Cash,4.6,106.9
+INV0014,Snacks,Snacks,A,Hyderabad,Member,6,37.51,UPI,3.2,225.06
+INV0015,Tea,Beverages,B,Vijayawada,Member,4,96.17,Credit card,4.6,384.68
+INV0016,Bread,Bakery,A,Hyderabad,Member,2,44.06,UPI,4.8,88.12
+INV0017,Juice,Beverages,A,Hyderabad,Normal,3,71.04,Credit card,4.1,213.12
+INV0018,Cheese,Dairy,C,Mumbai,Member,5,156.64,Cash,3.9,783.2
+INV0019,Snacks,Snacks,A,Hyderabad,Member,5,34.99,Credit card,4.3,174.95
+INV0020,Rice,Grocery,C,Mumbai,Normal,3,109.89,E-wallet,2.0,329.67
+INV0021,Snacks,Snacks,C,Mumbai,Normal,2,37.64,Credit card,4.2,75.28
+INV0022,Coffee,Beverages,B,Vijayawada,Normal,4,181.47,Credit card,3.9,725.88
+INV0023,Shampoo,Personal Care,A,Hyderabad,Normal,4,122.95,Credit card,4.0,491.8
+INV0024,Soap,Personal Care,B,Vijayawada,Normal,4,55.75,E-wallet,4.5,223.0
+INV0025,Snacks,Snacks,A,Hyderabad,Normal,1,32.92,E-wallet,3.9,32.92
+INV0026,Milk,Dairy,B,Vijayawada,Normal,3,56.34,UPI,3.2,169.02
+INV0027,Tea,Beverages,C,Mumbai,Normal,4,90.34,Credit card,3.9,361.36
+INV0028,Cheese,Dairy,C,Mumbai,Member,6,136.26,UPI,4.0,817.56
+INV0029,Milk,Dairy,C,Mumbai,Member,4,61.4,E-wallet,4.1,245.6
+INV0030,Rice,Grocery,A,Hyderabad,Member,3,111.57,Credit card,4.1,334.71
+INV0031,Snacks,Snacks,C,Mumbai,Member,4,34.21,Cash,4.7,136.84
+INV0032,Shampoo,Personal Care,C,Mumbai,Normal,2,123.17,UPI,3.2,246.34
+INV0033,Coffee,Beverages,B,Vijayawada,Member,1,182.97,Cash,4.1,182.97
+INV0034,Coffee,Beverages,C,Mumbai,Member,5,188.94,Credit card,4.9,944.7
+INV0035,Tea,Beverages,A,Hyderabad,Member,6,101.49,UPI,2.8,608.94
+INV0036,Milk,Dairy,A,Hyderabad,Normal,6,62.02,UPI,4.1,372.12
+INV0037,Milk,Dairy,B,Vijayawada,Member,4,56.99,E-wallet,3.6,227.96
+INV0038,Tea,Beverages,A,Hyderabad,Normal,1,92.4,Credit card,3.7,92.4
+INV0039,Bread,Bakery,A,Hyderabad,Normal,6,41.67,UPI,3.4,250.02
+INV0040,Rice,Grocery,C,Mumbai,Member,3,111.2,Cash,3.9,333.6
+INV0041,Tea,Beverages,C,Mumbai,Normal,2,94.42,E-wallet,5.0,188.84
+INV0042,Snacks,Snacks,B,Vijayawada,Member,6,35.89,Credit card,3.1,215.34
+INV0043,Rice,Grocery,C,Mumbai,Member,5,110.96,Credit card,3.2,554.8
+INV0044,Bread,Bakery,C,Mumbai,Normal,5,40.8,Cash,3.1,204.0
+INV0045,Snacks,Snacks,A,Hyderabad,Normal,2,34.14,Cash,5.0,68.28
+INV0046,Snacks,Snacks,B,Vijayawada,Member,6,34.32,UPI,3.7,205.92
+INV0047,Coffee,Beverages,B,Vijayawada,Normal,3,173.0,Credit card,4.0,519.0
+INV0048,Bread,Bakery,A,Hyderabad,Member,4,39.76,UPI,3.7,159.04
+INV0049,Rice,Grocery,C,Mumbai,Normal,5,113.93,UPI,3.3,569.65
+INV0050,Milk,Dairy,B,Vijayawada,Normal,4,56.97,Credit card,3.8,227.88
+INV0051,Milk,Dairy,B,Vijayawada,Normal,2,55.35,E-wallet,5.0,110.7
+INV0052,Cheese,Dairy,A,Hyderabad,Normal,2,146.96,Credit card,5.0,293.92
+INV0053,Snacks,Snacks,A,Hyderabad,Member,3,36.43,Cash,3.4,109.29
+INV0054,Rice,Grocery,C,Mumbai,Normal,6,105.73,Cash,4.5,634.38
+INV0055,Rice,Grocery,A,Hyderabad,Normal,5,115.75,Cash,3.4,578.75
+INV0056,Snacks,Snacks,A,Hyderabad,Normal,3,37.39,Cash,2.8,112.17
+INV0057,Tea,Beverages,A,Hyderabad,Member,5,96.48,Cash,4.7,482.4
+INV0058,Juice,Beverages,B,Vijayawada,Member,5,77.03,Cash,4.8,385.15
+INV0059,Milk,Dairy,B,Vijayawada,Member,3,53.85,Credit card,4.7,161.55
+INV0060,Milk,Dairy,B,Vijayawada,Member,3,62.13,E-wallet,3.7,186.39
+INV0061,Rice,Grocery,A,Hyderabad,Member,6,108.11,E-wallet,3.9,648.66
+INV0062,Tea,Beverages,A,Hyderabad,Member,4,101.44,UPI,4.5,405.76
+INV0063,Juice,Beverages,C,Mumbai,Normal,1,75.95,Cash,4.3,75.95
+INV0064,Snacks,Snacks,C,Mumbai,Member,5,32.23,UPI,3.7,161.15
+INV0065,Rice,Grocery,C,Mumbai,Normal,4,101.88,Cash,2.9,407.52
+INV0066,Juice,Beverages,C,Mumbai,Normal,4,77.17,UPI,4.1,308.68
+INV0067,Juice,Beverages,C,Mumbai,Normal,5,75.75,UPI,4.8,378.75
+INV0068,Bread,Bakery,A,Hyderabad,Member,6,38.82,Credit card,3.2,232.92
+INV0069,Cheese,Dairy,B,Vijayawada,Member,2,151.17,Cash,4.4,302.34
+INV0070,Tea,Beverages,B,Vijayawada,Normal,3,100.35,E-wallet,4.2,301.05
+INV0071,Bread,Bakery,B,Vijayawada,Normal,2,41.98,UPI,4.5,83.96
+INV0072,Coffee,Beverages,C,Mumbai,Member,4,183.99,UPI,4.6,735.96
+INV0073,Soap,Personal Care,B,Vijayawada,Normal,3,50.65,Cash,3.5,151.95
+INV0074,Bread,Bakery,C,Mumbai,Normal,3,43.93,UPI,2.9,131.79
+INV0075,Cheese,Dairy,C,Mumbai,Normal,5,141.56,UPI,3.6,707.8
+INV0076,Bread,Bakery,B,Vijayawada,Member,3,44.55,E-wallet,4.6,133.65
+INV0077,Bread,Bakery,C,Mumbai,Normal,3,41.15,UPI,3.6,123.45
+INV0078,Rice,Grocery,B,Vijayawada,Member,3,111.15,UPI,3.5,333.45
+INV0079,Juice,Beverages,C,Mumbai,Normal,2,72.24,Credit card,2.7,144.48
+INV0080,Snacks,Snacks,B,Vijayawada,Member,1,33.1,Cash,5.0,33.1
+INV0081,Rice,Grocery,B,Vijayawada,Member,5,114.84,Credit card,4.6,574.2
+INV0082,Coffee,Beverages,B,Vijayawada,Normal,1,184.9,Cash,4.5,184.9
+INV0083,Snacks,Snacks,A,Hyderabad,Member,2,35.2,E-wallet,4.7,70.4
+INV0084,Milk,Dairy,B,Vijayawada,Member,5,62.32,UPI,4.4,311.6
+INV0085,Cheese,Dairy,C,Mumbai,Member,1,156.29,Cash,3.8,156.29
+INV0086,Milk,Dairy,C,Mumbai,Member,4,61.3,Credit card,3.9,245.2
+INV0087,Rice,Grocery,A,Hyderabad,Member,5,104.5,E-wallet,3.7,522.5
+INV0088,Tea,Beverages,B,Vijayawada,Member,4,96.43,Cash,5.0,385.72
+INV0089,Milk,Dairy,A,Hyderabad,Normal,2,61.51,Credit card,4.4,123.02
+INV0090,Tea,Beverages,A,Hyderabad,Normal,1,93.09,UPI,3.7,93.09
+INV0091,Milk,Dairy,C,Mumbai,Member,6,54.3,UPI,4.3,325.8
+INV0092,Rice,Grocery,B,Vijayawada,Normal,2,115.47,UPI,3.3,230.94
+INV0093,Tea,Beverages,A,Hyderabad,Member,5,94.72,Credit card,5.0,473.6
+INV0094,Coffee,Beverages,B,Vijayawada,Normal,2,186.91,UPI,3.5,373.82
+INV0095,Bread,Bakery,A,Hyderabad,Member,1,45.24,Credit card,4.4,45.24
+INV0096,Rice,Grocery,A,Hyderabad,Normal,5,111.89,UPI,4.7,559.45
+INV0097,Coffee,Beverages,C,Mumbai,Member,6,182.78,E-wallet,4.3,1096.68
+INV0098,Milk,Dairy,C,Mumbai,Normal,6,56.79,E-wallet,4.1,340.74
+INV0099,Milk,Dairy,C,Mumbai,Member,5,57.24,UPI,4.0,286.2
+INV0100,Shampoo,Personal Care,B,Vijayawada,Normal,2,117.37,UPI,4.0,234.74
+INV0101,Soap,Personal Care,B,Vijayawada,Member,6,57.59,UPI,3.6,345.54
+INV0102,Rice,Grocery,C,Mumbai,Normal,5,115.94,E-wallet,3.7,579.7
+INV0103,Bread,Bakery,C,Mumbai,Member,2,40.55,UPI,5.0,81.1
+INV0104,Shampoo,Personal Care,C,Mumbai,Normal,1,121.08,Credit card,3.9,121.08
+INV0105,Snacks,Snacks,C,Mumbai,Normal,6,37.1,Cash,3.4,222.6
+INV0106,Rice,Grocery,C,Mumbai,Normal,2,101.62,E-wallet,3.6,203.24
+INV0107,Tea,Beverages,C,Mumbai,Member,5,95.31,Cash,4.8,476.55
+INV0108,Bread,Bakery,A,Hyderabad,Member,1,41.76,Cash,4.5,41.76
+INV0109,Milk,Dairy,C,Mumbai,Member,2,59.76,E-wallet,4.4,119.52
+INV0110,Soap,Personal Care,B,Vijayawada,Member,2,52.04,UPI,3.8,104.08
+INV0111,Tea,Beverages,B,Vijayawada,Normal,2,97.56,E-wallet,4.4,195.12
+INV0112,Milk,Dairy,C,Mumbai,Normal,5,56.86,UPI,3.5,284.3
+INV0113,Bread,Bakery,C,Mumbai,Normal,6,42.8,Cash,3.8,256.8
+INV0114,Juice,Beverages,C,Mumbai,Normal,6,69.48,E-wallet,4.7,416.88
+INV0115,Milk,Dairy,A,Hyderabad,Normal,5,57.64,Credit card,4.6,288.2
+INV0116,Soap,Personal Care,C,Mumbai,Normal,2,55.2,Credit card,3.3,110.4
+INV0117,Snacks,Snacks,C,Mumbai,Normal,6,33.4,UPI,3.4,200.4
+INV0118,Rice,Grocery,B,Vijayawada,Member,4,103.66,Cash,4.1,414.64
+INV0119,Tea,Beverages,A,Hyderabad,Normal,4,90.26,Cash,5.0,361.04
+INV0120,Rice,Grocery,A,Hyderabad,Normal,5,107.26,Cash,2.7,536.3
+INV0121,Juice,Beverages,C,Mumbai,Member,5,70.16,Cash,4.2,350.8
+INV0122,Rice,Grocery,B,Vijayawada,Member,6,117.87,Cash,3.0,707.22
+INV0123,Milk,Dairy,C,Mumbai,Normal,4,57.12,Cash,3.6,228.48
+INV0124,Tea,Beverages,B,Vijayawada,Normal,4,99.7,UPI,3.7,398.8
+INV0125,Cheese,Dairy,C,Mumbai,Normal,5,156.54,Cash,3.7,782.7
+INV0126,Tea,Beverages,B,Vijayawada,Normal,2,88.63,UPI,3.6,177.26
+INV0127,Coffee,Beverages,C,Mumbai,Member,2,189.49,E-wallet,4.0,378.98
+INV0128,Milk,Dairy,A,Hyderabad,Member,4,61.45,Credit card,3.6,245.8
+INV0129,Milk,Dairy,B,Vijayawada,Normal,1,59.25,UPI,3.0,59.25
+INV0130,Juice,Beverages,C,Mumbai,Normal,2,74.15,Credit card,4.5,148.3
+INV0131,Milk,Dairy,C,Mumbai,Member,5,57.36,E-wallet,4.5,286.8
+INV0132,Shampoo,Personal Care,C,Mumbai,Normal,6,115.72,UPI,4.6,694.32
+INV0133,Juice,Beverages,A,Hyderabad,Member,4,75.42,UPI,2.9,301.68
+INV0134,Coffee,Beverages,B,Vijayawada,Normal,3,199.61,UPI,4.2,598.83
+INV0135,Juice,Beverages,A,Hyderabad,Member,3,80.5,UPI,4.5,241.5
+INV0136,Cheese,Dairy,A,Hyderabad,Member,5,134.8,Credit card,3.3,674.0
+INV0137,Shampoo,Personal Care,C,Mumbai,Member,4,129.12,E-wallet,4.0,516.48
+INV0138,Tea,Beverages,C,Mumbai,Member,1,91.99,UPI,3.9,91.99
+INV0139,Snacks,Snacks,C,Mumbai,Normal,4,37.26,Credit card,5.0,149.04
+INV0140,Milk,Dairy,C,Mumbai,Member,3,53.78,UPI,5.0,161.34
+INV0141,Tea,Beverages,C,Mumbai,Member,5,101.63,Credit card,2.8,508.15
+INV0142,Tea,Beverages,C,Mumbai,Normal,6,100.13,Credit card,5.0,600.78
+INV0143,Shampoo,Personal Care,A,Hyderabad,Normal,6,117.35,Cash,3.4,704.1
+INV0144,Juice,Beverages,A,Hyderabad,Member,4,69.72,UPI,4.7,278.88
+INV0145,Tea,Beverages,B,Vijayawada,Member,3,100.09,Credit card,4.7,300.27
+INV0146,Bread,Bakery,C,Mumbai,Member,3,39.69,E-wallet,3.3,119.07
+INV0147,Coffee,Beverages,A,Hyderabad,Normal,2,186.03,UPI,4.3,372.06
+INV0148,Juice,Beverages,B,Vijayawada,Member,6,79.99,UPI,3.9,479.94
+INV0149,Tea,Beverages,C,Mumbai,Member,6,96.03,UPI,4.4,576.18
+INV0150,Cheese,Dairy,A,Hyderabad,Member,6,143.11,Credit card,4.2,858.66
+INV0151,Snacks,Snacks,B,Vijayawada,Normal,2,34.69,Credit card,4.8,69.38
+INV0152,Soap,Personal Care,C,Mumbai,Member,2,51.16,E-wallet,4.1,102.32
+INV0153,Milk,Dairy,C,Mumbai,Normal,6,62.35,Credit card,3.9,374.1
+INV0154,Juice,Beverages,A,Hyderabad,Member,4,72.73,E-wallet,4.8,290.92
+INV0155,Milk,Dairy,C,Mumbai,Normal,5,55.12,E-wallet,4.4,275.6
+INV0156,Rice,Grocery,B,Vijayawada,Member,3,106.23,UPI,4.5,318.69
+INV0157,Bread,Bakery,C,Mumbai,Member,3,45.12,Credit card,3.5,135.36
+INV0158,Rice,Grocery,A,Hyderabad,Member,4,102.86,Cash,3.3,411.44
+INV0159,Rice,Grocery,B,Vijayawada,Normal,5,116.46,Cash,3.6,582.3
+INV0160,Snacks,Snacks,B,Vijayawada,Normal,3,36.16,E-wallet,3.6,108.48
+INV0161,Milk,Dairy,A,Hyderabad,Member,5,61.06,Credit card,4.6,305.3
+INV0162,Soap,Personal Care,C,Mumbai,Member,2,59.19,E-wallet,4.7,118.38
+INV0163,Bread,Bakery,A,Hyderabad,Normal,3,44.3,Cash,3.9,132.9
+INV0164,Cheese,Dairy,A,Hyderabad,Normal,6,155.82,Cash,5.0,934.92
+INV0165,Juice,Beverages,B,Vijayawada,Member,6,70.52,Cash,5.0,423.12
+INV0166,Coffee,Beverages,C,Mumbai,Member,6,193.76,UPI,4.2,1162.56
+INV0167,Snacks,Snacks,C,Mumbai,Normal,2,35.26,UPI,3.4,70.52
+INV0168,Snacks,Snacks,C,Mumbai,Normal,6,35.24,Cash,5.0,211.44
+INV0169,Bread,Bakery,A,Hyderabad,Normal,6,44.68,UPI,4.0,268.08
+INV0170,Shampoo,Personal Care,B,Vijayawada,Normal,6,134.44,E-wallet,4.1,806.64
+INV0171,Bread,Bakery,A,Hyderabad,Member,1,43.38,UPI,3.8,43.38
+INV0172,Juice,Beverages,B,Vijayawada,Member,5,74.8,UPI,3.4,374.0
+INV0173,Bread,Bakery,C,Mumbai,Member,6,41.71,Credit card,3.0,250.26
+INV0174,Shampoo,Personal Care,C,Mumbai,Member,5,122.73,UPI,4.4,613.65
+INV0175,Milk,Dairy,B,Vijayawada,Member,2,56.72,E-wallet,3.5,113.44
+INV0176,Cheese,Dairy,B,Vijayawada,Member,5,142.97,Credit card,5.0,714.85
+INV0177,Tea,Beverages,C,Mumbai,Member,1,88.76,UPI,3.2,88.76
+INV0178,Shampoo,Personal Care,B,Vijayawada,Normal,3,116.55,Credit card,3.1,349.65
+INV0179,Soap,Personal Care,A,Hyderabad,Member,4,57.46,Credit card,4.4,229.84
+INV0180,Snacks,Snacks,B,Vijayawada,Member,3,34.7,Credit card,5.0,104.1
+INV0181,Soap,Personal Care,A,Hyderabad,Normal,5,58.79,E-wallet,4.0,293.95
+INV0182,Soap,Personal Care,A,Hyderabad,Normal,2,55.99,Credit card,4.4,111.98
+INV0183,Juice,Beverages,A,Hyderabad,Normal,4,69.42,Credit card,2.7,277.68
+INV0184,Bread,Bakery,B,Vijayawada,Normal,4,39.7,Cash,3.5,158.8
+INV0185,Snacks,Snacks,C,Mumbai,Normal,4,33.35,Credit card,3.2,133.4
+INV0186,Rice,Grocery,B,Vijayawada,Member,2,118.37,E-wallet,2.7,236.74
+INV0187,Coffee,Beverages,B,Vijayawada,Member,2,176.67,Credit card,4.1,353.34
+INV0188,Milk,Dairy,C,Mumbai,Normal,2,58.15,Credit card,2.4,116.3
+INV0189,Snacks,Snacks,C,Mumbai,Member,3,37.44,Cash,3.1,112.32
+INV0190,Bread,Bakery,B,Vijayawada,Member,4,45.21,Credit card,3.6,180.84
+INV0191,Shampoo,Personal Care,A,Hyderabad,Member,3,119.73,E-wallet,3.4,359.19
+INV0192,Bread,Bakery,C,Mumbai,Member,3,38.97,UPI,4.3,116.91
+INV0193,Milk,Dairy,A,Hyderabad,Member,2,54.79,UPI,4.2,109.58
+INV0194,Snacks,Snacks,B,Vijayawada,Member,2,32.55,Cash,4.6,65.1
+INV0195,Milk,Dairy,C,Mumbai,Normal,4,55.17,Cash,4.5,220.68
+INV0196,Milk,Dairy,B,Vijayawada,Normal,5,58.64,Credit card,4.8,293.2
+INV0197,Juice,Beverages,C,Mumbai,Member,2,79.95,UPI,4.0,159.9
+INV0198,Soap,Personal Care,B,Vijayawada,Normal,6,55.33,Cash,4.2,331.98
+INV0199,Milk,Dairy,C,Mumbai,Member,4,59.17,Credit card,4.4,236.68
+INV0200,Bread,Bakery,A,Hyderabad,Normal,2,40.0,Credit card,4.1,80.0
+INV0201,Snacks,Snacks,A,Hyderabad,Normal,3,36.68,Credit card,3.7,110.04
+INV0202,Shampoo,Personal Care,B,Vijayawada,Member,1,127.36,Credit card,3.8,127.36
+INV0203,Tea,Beverages,A,Hyderabad,Normal,1,100.53,Credit card,3.4,100.53
+INV0204,Milk,Dairy,C,Mumbai,Normal,3,62.17,E-wallet,4.3,186.51
+INV0205,Cheese,Dairy,A,Hyderabad,Normal,3,141.96,Credit card,3.9,425.88
+INV0206,Bread,Bakery,B,Vijayawada,Normal,5,39.25,Cash,3.5,196.25
+INV0207,Milk,Dairy,C,Mumbai,Normal,1,55.46,Credit card,3.5,55.46
+INV0208,Rice,Grocery,C,Mumbai,Member,6,108.91,UPI,3.2,653.46
+INV0209,Milk,Dairy,B,Vijayawada,Normal,2,62.14,UPI,4.7,124.28
+INV0210,Tea,Beverages,B,Vijayawada,Normal,1,93.15,Cash,4.1,93.15
+INV0211,Rice,Grocery,C,Mumbai,Normal,5,114.77,E-wallet,3.4,573.85
+INV0212,Juice,Beverages,C,Mumbai,Member,5,75.49,Credit card,4.6,377.45
+INV0213,Milk,Dairy,C,Mumbai,Normal,4,55.06,UPI,3.6,220.24
+INV0214,Snacks,Snacks,C,Mumbai,Member,1,34.0,Credit card,3.0,34.0
+INV0215,Rice,Grocery,C,Mumbai,Normal,1,112.7,UPI,4.7,112.7
+INV0216,Snacks,Snacks,A,Hyderabad,Member,3,35.97,Credit card,3.6,107.91
+INV0217,Milk,Dairy,B,Vijayawada,Normal,3,57.39,E-wallet,3.7,172.17
+INV0218,Milk,Dairy,A,Hyderabad,Normal,6,55.48,Credit card,4.0,332.88
+INV0219,Shampoo,Personal Care,C,Mumbai,Member,2,129.44,Credit card,4.8,258.88
+INV0220,Coffee,Beverages,C,Mumbai,Member,2,175.2,Cash,4.0,350.4
+INV0221,Bread,Bakery,B,Vijayawada,Member,6,44.93,Cash,3.2,269.58
+INV0222,Tea,Beverages,B,Vijayawada,Normal,1,90.26,E-wallet,4.4,90.26
+INV0223,Rice,Grocery,A,Hyderabad,Normal,1,103.09,Credit card,3.7,103.09
+INV0224,Shampoo,Personal Care,C,Mumbai,Member,3,124.95,Cash,5.0,374.85
+INV0225,Bread,Bakery,A,Hyderabad,Member,3,42.13,Cash,4.0,126.39
+INV0226,Shampoo,Personal Care,A,Hyderabad,Member,4,125.16,UPI,2.4,500.64
+INV0227,Cheese,Dairy,A,Hyderabad,Member,6,144.03,UPI,4.3,864.18
+INV0228,Juice,Beverages,A,Hyderabad,Normal,6,80.94,UPI,5.0,485.64
+INV0229,Rice,Grocery,B,Vijayawada,Normal,2,109.76,Cash,5.0,219.52
+INV0230,Milk,Dairy,B,Vijayawada,Member,6,57.8,E-wallet,5.0,346.8
+INV0231,Milk,Dairy,A,Hyderabad,Normal,4,57.27,Cash,3.3,229.08
+INV0232,Tea,Beverages,A,Hyderabad,Member,1,88.42,UPI,4.6,88.42
+INV0233,Shampoo,Personal Care,A,Hyderabad,Normal,6,126.86,UPI,3.5,761.16
+INV0234,Juice,Beverages,B,Vijayawada,Member,1,71.74,Cash,4.2,71.74
+INV0235,Shampoo,Personal Care,A,Hyderabad,Normal,4,127.75,E-wallet,3.1,511.0
+INV0236,Snacks,Snacks,C,Mumbai,Normal,5,32.48,Cash,3.5,162.4
+INV0237,Tea,Beverages,A,Hyderabad,Member,2,102.32,Credit card,3.5,204.64
+INV0238,Snacks,Snacks,A,Hyderabad,Normal,2,34.83,E-wallet,4.6,69.66
+INV0239,Cheese,Dairy,B,Vijayawada,Normal,3,154.74,UPI,4.6,464.22
+INV0240,Milk,Dairy,B,Vijayawada,Member,6,57.77,Credit card,4.2,346.62
+INV0241,Snacks,Snacks,A,Hyderabad,Member,2,32.54,E-wallet,3.1,65.08
+INV0242,Snacks,Snacks,A,Hyderabad,Normal,4,36.8,Cash,3.8,147.2
+INV0243,Bread,Bakery,C,Mumbai,Member,3,43.0,UPI,3.5,129.0
+INV0244,Juice,Beverages,A,Hyderabad,Member,1,78.38,E-wallet,4.6,78.38
+INV0245,Juice,Beverages,B,Vijayawada,Member,5,74.14,E-wallet,4.8,370.7
+INV0246,Soap,Personal Care,B,Vijayawada,Normal,5,56.21,Cash,4.7,281.05
+INV0247,Juice,Beverages,B,Vijayawada,Member,4,79.27,Credit card,3.5,317.08
+INV0248,Tea,Beverages,B,Vijayawada,Member,2,96.99,UPI,2.1,193.98
+INV0249,Coffee,Beverages,C,Mumbai,Normal,1,180.49,E-wallet,2.8,180.49
+INV0250,Tea,Beverages,C,Mumbai,Normal,3,97.47,Cash,5.0,292.41
+INV0251,Rice,Grocery,A,Hyderabad,Normal,4,113.02,UPI,3.7,452.08
+INV0252,Soap,Personal Care,B,Vijayawada,Member,4,59.05,Credit card,3.5,236.2
+INV0253,Tea,Beverages,A,Hyderabad,Normal,2,93.04,E-wallet,5.0,186.08
+INV0254,Bread,Bakery,B,Vijayawada,Normal,4,41.5,E-wallet,4.9,166.0
+INV0255,Bread,Bakery,C,Mumbai,Member,2,44.1,UPI,4.0,88.2
+INV0256,Snacks,Snacks,A,Hyderabad,Normal,5,35.03,UPI,3.8,175.15
+INV0257,Snacks,Snacks,B,Vijayawada,Member,5,36.32,E-wallet,3.9,181.6
+INV0258,Milk,Dairy,C,Mumbai,Member,4,57.63,E-wallet,4.2,230.52
+INV0259,Cheese,Dairy,A,Hyderabad,Member,1,138.88,Cash,5.0,138.88
+INV0260,Juice,Beverages,B,Vijayawada,Normal,6,77.94,Credit card,4.3,467.64
+INV0261,Milk,Dairy,C,Mumbai,Member,1,54.58,Cash,4.5,54.58
+INV0262,Snacks,Snacks,A,Hyderabad,Member,6,33.31,Cash,4.8,199.86
+INV0263,Bread,Bakery,A,Hyderabad,Member,1,42.85,UPI,3.2,42.85
+INV0264,Milk,Dairy,A,Hyderabad,Member,4,60.29,UPI,4.5,241.16
+INV0265,Shampoo,Personal Care,C,Mumbai,Member,1,132.89,UPI,3.8,132.89
+INV0266,Milk,Dairy,A,Hyderabad,Normal,1,55.89,E-wallet,2.2,55.89
+INV0267,Bread,Bakery,A,Hyderabad,Member,5,39.38,UPI,2.5,196.9
+INV0268,Milk,Dairy,A,Hyderabad,Member,5,62.23,UPI,3.3,311.15
+INV0269,Milk,Dairy,A,Hyderabad,Normal,1,54.79,Credit card,4.4,54.79
+INV0270,Cheese,Dairy,B,Vijayawada,Member,6,138.46,UPI,4.1,830.76
+INV0271,Cheese,Dairy,A,Hyderabad,Normal,2,140.64,UPI,4.1,281.28
+INV0272,Milk,Dairy,B,Vijayawada,Member,2,58.27,Credit card,5.0,116.54
+INV0273,Cheese,Dairy,B,Vijayawada,Member,2,154.41,Cash,3.1,308.82
+INV0274,Juice,Beverages,C,Mumbai,Member,3,78.13,Credit card,4.0,234.39
+INV0275,Rice,Grocery,A,Hyderabad,Member,2,113.66,E-wallet,4.2,227.32
+INV0276,Coffee,Beverages,C,Mumbai,Member,3,175.39,UPI,3.5,526.17
+INV0277,Bread,Bakery,B,Vijayawada,Normal,2,41.04,E-wallet,4.0,82.08
+INV0278,Tea,Beverages,A,Hyderabad,Member,1,94.67,E-wallet,2.9,94.67
+INV0279,Soap,Personal Care,C,Mumbai,Normal,3,51.9,E-wallet,5.0,155.7
+INV0280,Soap,Personal Care,C,Mumbai,Normal,5,53.01,Credit card,3.5,265.05
+INV0281,Cheese,Dairy,A,Hyderabad,Member,5,141.04,Credit card,5.0,705.2
+INV0282,Milk,Dairy,C,Mumbai,Normal,3,54.54,Credit card,4.0,163.62
+INV0283,Bread,Bakery,B,Vijayawada,Member,2,42.34,Credit card,4.7,84.68
+INV0284,Bread,Bakery,B,Vijayawada,Member,5,43.38,UPI,4.0,216.9
+INV0285,Juice,Beverages,C,Mumbai,Member,5,69.84,E-wallet,4.0,349.2
+INV0286,Tea,Beverages,B,Vijayawada,Normal,5,94.71,Credit card,3.6,473.55
+INV0287,Cheese,Dairy,C,Mumbai,Normal,6,152.07,E-wallet,4.1,912.42
+INV0288,Coffee,Beverages,A,Hyderabad,Member,5,192.34,Cash,4.2,961.7
+INV0289,Juice,Beverages,C,Mumbai,Normal,6,78.78,UPI,3.5,472.68
+INV0290,Milk,Dairy,B,Vijayawada,Normal,3,57.52,Cash,3.9,172.56
+INV0291,Snacks,Snacks,A,Hyderabad,Member,3,36.8,Cash,3.6,110.4
+INV0292,Cheese,Dairy,B,Vijayawada,Normal,2,139.46,Cash,5.0,278.92
+INV0293,Shampoo,Personal Care,A,Hyderabad,Normal,2,122.22,Cash,3.9,244.44
+INV0294,Milk,Dairy,A,Hyderabad,Normal,5,55.0,UPI,5.0,275.0
+INV0295,Snacks,Snacks,A,Hyderabad,Normal,5,34.82,Cash,3.9,174.1
+INV0296,Soap,Personal Care,B,Vijayawada,Member,5,54.05,Cash,4.2,270.25
+INV0297,Shampoo,Personal Care,A,Hyderabad,Member,2,119.82,E-wallet,3.1,239.64
+INV0298,Snacks,Snacks,A,Hyderabad,Normal,3,36.41,UPI,3.7,109.23
+INV0299,Snacks,Snacks,C,Mumbai,Member,2,33.96,Cash,4.1,67.92
+INV0300,Rice,Grocery,C,Mumbai,Member,6,106.0,Cash,5.0,636.0
+INV0301,Snacks,Snacks,C,Mumbai,Normal,2,32.93,Credit card,4.2,65.86
+INV0302,Milk,Dairy,A,Hyderabad,Member,1,57.43,Cash,5.0,57.43
+INV0303,Juice,Beverages,C,Mumbai,Member,4,72.64,Credit card,4.4,290.56
+INV0304,Juice,Beverages,B,Vijayawada,Normal,6,73.43,E-wallet,5.0,440.58
+INV0305,Soap,Personal Care,A,Hyderabad,Member,6,52.68,UPI,4.0,316.08
+INV0306,Tea,Beverages,A,Hyderabad,Member,1,99.0,Credit card,5.0,99.0
+INV0307,Coffee,Beverages,C,Mumbai,Normal,2,197.73,UPI,3.7,395.46
+INV0308,Rice,Grocery,A,Hyderabad,Member,1,109.96,UPI,3.5,109.96
+INV0309,Bread,Bakery,B,Vijayawada,Member,2,42.96,Cash,3.2,85.92
+INV0310,Milk,Dairy,C,Mumbai,Member,4,61.41,UPI,5.0,245.64
+INV0311,Tea,Beverages,A,Hyderabad,Normal,2,102.58,Credit card,4.6,205.16
+INV0312,Tea,Beverages,A,Hyderabad,Member,1,96.73,Credit card,3.8,96.73
+INV0313,Bread,Bakery,C,Mumbai,Member,4,44.62,Credit card,4.9,178.48
+INV0314,Coffee,Beverages,B,Vijayawada,Member,1,197.09,Cash,4.5,197.09
+INV0315,Coffee,Beverages,A,Hyderabad,Member,2,193.63,Credit card,5.0,387.26
+INV0316,Coffee,Beverages,C,Mumbai,Normal,1,183.84,Cash,2.9,183.84
+INV0317,Coffee,Beverages,C,Mumbai,Member,1,172.6,UPI,3.8,172.6
+INV0318,Rice,Grocery,B,Vijayawada,Normal,3,101.48,UPI,3.7,304.44
+INV0319,Bread,Bakery,B,Vijayawada,Member,6,41.85,Credit card,2.6,251.1
+INV0320,Shampoo,Personal Care,A,Hyderabad,Member,5,124.89,E-wallet,4.7,624.45
+INV0321,Soap,Personal Care,A,Hyderabad,Normal,1,54.18,UPI,3.8,54.18
+INV0322,Tea,Beverages,B,Vijayawada,Member,1,96.04,Credit card,4.5,96.04
+INV0323,Coffee,Beverages,A,Hyderabad,Member,3,186.54,Credit card,5.0,559.62
+INV0324,Juice,Beverages,C,Mumbai,Normal,4,79.04,E-wallet,3.8,316.16
+INV0325,Snacks,Snacks,C,Mumbai,Member,5,32.81,Credit card,3.7,164.05
+INV0326,Rice,Grocery,A,Hyderabad,Normal,5,105.16,Credit card,4.1,525.8
+INV0327,Snacks,Snacks,B,Vijayawada,Normal,3,36.64,Credit card,4.7,109.92
+INV0328,Juice,Beverages,A,Hyderabad,Member,2,79.17,E-wallet,3.6,158.34
+INV0329,Rice,Grocery,C,Mumbai,Member,1,118.71,UPI,3.6,118.71
+INV0330,Bread,Bakery,A,Hyderabad,Member,1,44.51,E-wallet,4.7,44.51
+INV0331,Snacks,Snacks,B,Vijayawada,Member,1,37.18,UPI,4.3,37.18
+INV0332,Milk,Dairy,B,Vijayawada,Member,6,56.28,E-wallet,2.6,337.68
+INV0333,Rice,Grocery,B,Vijayawada,Normal,2,108.27,UPI,3.1,216.54
+INV0334,Soap,Personal Care,C,Mumbai,Member,5,52.96,UPI,5.0,264.8
+INV0335,Milk,Dairy,C,Mumbai,Normal,4,58.99,UPI,4.3,235.96
+INV0336,Rice,Grocery,B,Vijayawada,Member,4,117.72,Cash,3.5,470.88
+INV0337,Milk,Dairy,C,Mumbai,Member,3,56.56,Cash,3.9,169.68
+INV0338,Rice,Grocery,C,Mumbai,Member,5,111.0,UPI,4.0,555.0
+INV0339,Milk,Dairy,B,Vijayawada,Normal,1,56.11,Cash,4.5,56.11
+INV0340,Shampoo,Personal Care,B,Vijayawada,Member,1,118.4,Cash,3.0,118.4
+INV0341,Milk,Dairy,A,Hyderabad,Member,3,55.17,Credit card,3.4,165.51
+INV0342,Shampoo,Personal Care,C,Mumbai,Normal,3,116.16,E-wallet,4.2,348.48
+INV0343,Snacks,Snacks,B,Vijayawada,Normal,4,37.52,Credit card,3.9,150.08
+INV0344,Juice,Beverages,B,Vijayawada,Member,5,73.83,UPI,4.4,369.15
+INV0345,Snacks,Snacks,A,Hyderabad,Normal,4,36.87,Cash,3.1,147.48
+INV0346,Snacks,Snacks,C,Mumbai,Member,2,36.02,E-wallet,4.2,72.04
+INV0347,Shampoo,Personal Care,B,Vijayawada,Member,2,118.84,UPI,4.8,237.68
+INV0348,Bread,Bakery,C,Mumbai,Member,5,39.82,Cash,4.3,199.1
+INV0349,Juice,Beverages,A,Hyderabad,Member,2,78.74,E-wallet,4.1,157.48
+INV0350,Milk,Dairy,C,Mumbai,Member,4,55.82,E-wallet,3.9,223.28
+INV0351,Rice,Grocery,A,Hyderabad,Normal,4,117.27,Cash,3.4,469.08
+INV0352,Milk,Dairy,A,Hyderabad,Member,5,54.66,Credit card,3.9,273.3
+INV0353,Juice,Beverages,C,Mumbai,Normal,5,77.13,Cash,4.9,385.65
+INV0354,Juice,Beverages,C,Mumbai,Normal,3,78.77,Credit card,3.9,236.31
+INV0355,Tea,Beverages,A,Hyderabad,Normal,2,90.98,UPI,3.4,181.96
+INV0356,Juice,Beverages,B,Vijayawada,Normal,3,72.31,UPI,3.7,216.93
+INV0357,Snacks,Snacks,C,Mumbai,Normal,3,37.6,Credit card,4.1,112.8
+INV0358,Snacks,Snacks,C,Mumbai,Normal,2,33.68,UPI,3.7,67.36
+INV0359,Tea,Beverages,B,Vijayawada,Member,4,93.94,Credit card,4.3,375.76
+INV0360,Juice,Beverages,B,Vijayawada,Member,2,74.19,Cash,4.4,148.38
+INV0361,Shampoo,Personal Care,C,Mumbai,Normal,4,120.06,E-wallet,4.6,480.24
+INV0362,Milk,Dairy,C,Mumbai,Normal,5,60.56,E-wallet,5.0,302.8
+INV0363,Milk,Dairy,C,Mumbai,Member,6,60.52,Cash,4.7,363.12
+INV0364,Milk,Dairy,B,Vijayawada,Normal,1,56.87,Credit card,3.3,56.87
+INV0365,Rice,Grocery,A,Hyderabad,Member,5,115.9,UPI,3.4,579.5
+INV0366,Tea,Beverages,C,Mumbai,Normal,1,90.64,Cash,3.9,90.64
+INV0367,Snacks,Snacks,C,Mumbai,Member,3,32.22,UPI,3.7,96.66
+INV0368,Rice,Grocery,C,Mumbai,Member,2,111.25,E-wallet,3.2,222.5
+INV0369,Coffee,Beverages,A,Hyderabad,Member,1,199.62,E-wallet,3.7,199.62
+INV0370,Soap,Personal Care,A,Hyderabad,Member,2,50.94,E-wallet,3.7,101.88
+INV0371,Snacks,Snacks,C,Mumbai,Member,1,33.36,E-wallet,3.5,33.36
+INV0372,Bread,Bakery,A,Hyderabad,Member,5,42.13,E-wallet,3.8,210.65
+INV0373,Coffee,Beverages,C,Mumbai,Member,1,194.17,UPI,4.8,194.17
+INV0374,Bread,Bakery,B,Vijayawada,Member,3,39.24,E-wallet,4.1,117.72
+INV0375,Milk,Dairy,C,Mumbai,Member,5,57.03,Credit card,5.0,285.15
+INV0376,Milk,Dairy,C,Mumbai,Member,6,60.29,Cash,4.1,361.74
+INV0377,Shampoo,Personal Care,B,Vijayawada,Member,6,122.43,Credit card,3.8,734.58
+INV0378,Tea,Beverages,A,Hyderabad,Member,1,90.27,Cash,4.0,90.27
+INV0379,Coffee,Beverages,B,Vijayawada,Member,6,175.99,UPI,4.2,1055.94
+INV0380,Rice,Grocery,B,Vijayawada,Member,4,108.42,UPI,4.3,433.68
+INV0381,Juice,Beverages,B,Vijayawada,Member,2,74.75,UPI,5.0,149.5
+INV0382,Shampoo,Personal Care,B,Vijayawada,Normal,3,132.24,Cash,3.4,396.72
+INV0383,Snacks,Snacks,C,Mumbai,Normal,6,35.8,E-wallet,4.6,214.8
+INV0384,Tea,Beverages,B,Vijayawada,Normal,3,97.89,Credit card,4.1,293.67
+INV0385,Coffee,Beverages,A,Hyderabad,Member,2,199.3,Cash,2.9,398.6
+INV0386,Shampoo,Personal Care,B,Vijayawada,Normal,6,123.24,Cash,4.5,739.44
+INV0387,Rice,Grocery,B,Vijayawada,Member,6,108.3,Cash,4.9,649.8
+INV0388,Shampoo,Personal Care,A,Hyderabad,Normal,6,133.47,UPI,3.4,800.82
+INV0389,Milk,Dairy,A,Hyderabad,Normal,6,55.64,E-wallet,4.0,333.84
+INV0390,Soap,Personal Care,C,Mumbai,Normal,6,57.02,UPI,2.8,342.12
+INV0391,Rice,Grocery,B,Vijayawada,Normal,3,114.48,Credit card,3.1,343.44
+INV0392,Milk,Dairy,C,Mumbai,Member,2,54.27,Credit card,4.7,108.54
+INV0393,Juice,Beverages,A,Hyderabad,Normal,4,74.62,Credit card,3.7,298.48
+INV0394,Rice,Grocery,A,Hyderabad,Normal,2,104.73,E-wallet,3.2,209.46
+INV0395,Cheese,Dairy,C,Mumbai,Member,3,138.18,Cash,4.2,414.54
+INV0396,Tea,Beverages,C,Mumbai,Normal,4,94.45,E-wallet,3.6,377.8
+INV0397,Snacks,Snacks,A,Hyderabad,Member,6,33.82,Credit card,3.7,202.92
+INV0398,Bread,Bakery,A,Hyderabad,Normal,2,43.99,E-wallet,4.5,87.98
+INV0399,Tea,Beverages,A,Hyderabad,Normal,2,101.2,Credit card,3.2,202.4
+INV0400,Tea,Beverages,B,Vijayawada,Member,5,99.6,E-wallet,3.4,498.0
+INV0401,Bread,Bakery,B,Vijayawada,Normal,1,40.43,E-wallet,4.1,40.43
+INV0402,Soap,Personal Care,A,Hyderabad,Member,4,53.01,Cash,4.7,212.04
+INV0403,Snacks,Snacks,A,Hyderabad,Normal,5,33.63,E-wallet,4.9,168.15
+INV0404,Milk,Dairy,B,Vijayawada,Normal,4,54.61,Credit card,3.5,218.44
+INV0405,Shampoo,Personal Care,C,Mumbai,Normal,3,133.88,Cash,4.7,401.64
+INV0406,Soap,Personal Care,C,Mumbai,Normal,5,54.14,E-wallet,3.5,270.7
+INV0407,Bread,Bakery,B,Vijayawada,Member,3,40.15,Cash,5.0,120.45
+INV0408,Snacks,Snacks,A,Hyderabad,Member,5,36.94,Credit card,3.2,184.7
+INV0409,Milk,Dairy,A,Hyderabad,Member,3,57.06,UPI,4.9,171.18
+INV0410,Shampoo,Personal Care,A,Hyderabad,Member,1,115.7,UPI,3.5,115.7
+INV0411,Rice,Grocery,C,Mumbai,Member,4,104.05,E-wallet,5.0,416.2
+INV0412,Rice,Grocery,C,Mumbai,Member,1,112.45,Cash,4.4,112.45
+INV0413,Milk,Dairy,C,Mumbai,Member,6,60.63,Cash,3.3,363.78
+INV0414,Soap,Personal Care,C,Mumbai,Member,4,52.46,UPI,3.6,209.84
+INV0415,Cheese,Dairy,C,Mumbai,Normal,3,155.22,Cash,4.5,465.66
+INV0416,Bread,Bakery,C,Mumbai,Member,3,44.36,E-wallet,4.7,133.08
+INV0417,Milk,Dairy,A,Hyderabad,Normal,4,61.23,E-wallet,4.0,244.92
+INV0418,Snacks,Snacks,A,Hyderabad,Member,2,33.47,UPI,4.0,66.94
+INV0419,Milk,Dairy,A,Hyderabad,Member,2,53.83,Credit card,4.5,107.66
+INV0420,Soap,Personal Care,B,Vijayawada,Member,3,58.23,Cash,4.1,174.69
+INV0421,Rice,Grocery,A,Hyderabad,Member,2,106.58,Credit card,3.1,213.16
+INV0422,Cheese,Dairy,C,Mumbai,Member,5,148.27,Cash,3.4,741.35
+INV0423,Cheese,Dairy,B,Vijayawada,Member,1,151.55,Cash,4.2,151.55
+INV0424,Cheese,Dairy,B,Vijayawada,Member,5,136.85,Cash,4.9,684.25
+INV0425,Juice,Beverages,A,Hyderabad,Member,3,78.37,Credit card,5.0,235.11
+INV0426,Snacks,Snacks,A,Hyderabad,Normal,4,37.46,Cash,4.5,149.84
+INV0427,Bread,Bakery,A,Hyderabad,Member,1,43.53,Cash,4.2,43.53
+INV0428,Snacks,Snacks,C,Mumbai,Normal,3,34.67,E-wallet,4.5,104.01
+INV0429,Cheese,Dairy,B,Vijayawada,Member,5,154.27,Credit card,3.5,771.35
+INV0430,Snacks,Snacks,C,Mumbai,Normal,2,35.15,Cash,3.9,70.3
+INV0431,Shampoo,Personal Care,A,Hyderabad,Normal,1,129.9,E-wallet,3.4,129.9
+INV0432,Snacks,Snacks,B,Vijayawada,Normal,4,36.79,E-wallet,3.1,147.16
+INV0433,Rice,Grocery,B,Vijayawada,Normal,1,114.39,UPI,4.2,114.39
+INV0434,Snacks,Snacks,C,Mumbai,Member,2,33.81,Credit card,4.1,67.62
+INV0435,Cheese,Dairy,C,Mumbai,Normal,3,136.6,UPI,4.5,409.8
+INV0436,Milk,Dairy,A,Hyderabad,Member,4,55.57,Credit card,4.4,222.28
+INV0437,Milk,Dairy,C,Mumbai,Normal,4,58.03,UPI,4.2,232.12
+INV0438,Tea,Beverages,A,Hyderabad,Normal,5,95.08,Credit card,4.4,475.4
+INV0439,Snacks,Snacks,C,Mumbai,Member,6,35.46,UPI,4.0,212.76
+INV0440,Rice,Grocery,A,Hyderabad,Normal,1,108.15,Cash,4.3,108.15
+INV0441,Soap,Personal Care,A,Hyderabad,Member,3,57.52,E-wallet,3.5,172.56
+INV0442,Milk,Dairy,C,Mumbai,Normal,1,61.83,Cash,4.3,61.83
+INV0443,Snacks,Snacks,A,Hyderabad,Normal,1,33.58,E-wallet,4.5,33.58
+INV0444,Milk,Dairy,B,Vijayawada,Member,2,60.19,E-wallet,3.5,120.38
+INV0445,Bread,Bakery,B,Vijayawada,Normal,4,43.2,E-wallet,4.0,172.8
+INV0446,Rice,Grocery,A,Hyderabad,Normal,6,110.41,UPI,3.6,662.46
+INV0447,Shampoo,Personal Care,C,Mumbai,Member,5,118.77,E-wallet,3.6,593.85
+INV0448,Rice,Grocery,C,Mumbai,Normal,4,115.2,UPI,3.2,460.8
+INV0449,Cheese,Dairy,C,Mumbai,Member,5,156.22,Cash,4.9,781.1
+INV0450,Rice,Grocery,B,Vijayawada,Normal,2,113.9,E-wallet,4.7,227.8
+INV0451,Cheese,Dairy,B,Vijayawada,Member,6,155.23,Credit card,4.4,931.38
+INV0452,Soap,Personal Care,A,Hyderabad,Normal,6,59.26,Cash,5.0,355.56
+INV0453,Rice,Grocery,A,Hyderabad,Normal,1,107.4,Cash,3.9,107.4
+INV0454,Milk,Dairy,A,Hyderabad,Member,3,59.28,E-wallet,5.0,177.84
+INV0455,Milk,Dairy,C,Mumbai,Member,5,57.76,Credit card,3.8,288.8
+INV0456,Milk,Dairy,C,Mumbai,Normal,3,62.52,Cash,4.2,187.56
+INV0457,Shampoo,Personal Care,C,Mumbai,Normal,6,116.88,E-wallet,3.7,701.28
+INV0458,Tea,Beverages,B,Vijayawada,Member,6,93.67,UPI,4.3,562.02
+INV0459,Snacks,Snacks,B,Vijayawada,Member,3,37.1,UPI,4.6,111.3
+INV0460,Rice,Grocery,B,Vijayawada,Member,1,106.2,Credit card,3.9,106.2
+INV0461,Juice,Beverages,B,Vijayawada,Normal,3,78.45,E-wallet,5.0,235.35
+INV0462,Milk,Dairy,B,Vijayawada,Member,2,56.91,UPI,4.2,113.82
+INV0463,Shampoo,Personal Care,A,Hyderabad,Normal,3,134.6,UPI,4.2,403.8
+INV0464,Bread,Bakery,A,Hyderabad,Member,4,44.58,UPI,3.4,178.32
+INV0465,Juice,Beverages,C,Mumbai,Normal,3,72.62,E-wallet,4.3,217.86
+INV0466,Rice,Grocery,B,Vijayawada,Member,2,114.76,UPI,3.9,229.52
+INV0467,Rice,Grocery,C,Mumbai,Member,2,107.13,Cash,3.6,214.26
+INV0468,Shampoo,Personal Care,A,Hyderabad,Normal,5,127.13,E-wallet,3.5,635.65
+INV0469,Milk,Dairy,B,Vijayawada,Normal,1,59.47,UPI,5.0,59.47
+INV0470,Tea,Beverages,A,Hyderabad,Member,2,100.01,Credit card,3.8,200.02
+INV0471,Coffee,Beverages,A,Hyderabad,Member,6,170.92,Cash,3.0,1025.52
+INV0472,Tea,Beverages,A,Hyderabad,Member,1,90.75,E-wallet,3.5,90.75
+INV0473,Milk,Dairy,A,Hyderabad,Member,3,59.97,Cash,4.0,179.91
+INV0474,Milk,Dairy,C,Mumbai,Member,2,58.59,Cash,4.4,117.18
+INV0475,Bread,Bakery,B,Vijayawada,Normal,1,41.97,UPI,4.4,41.97
+INV0476,Bread,Bakery,B,Vijayawada,Member,3,39.01,Credit card,4.5,117.03
+INV0477,Tea,Beverages,B,Vijayawada,Normal,4,92.69,E-wallet,3.5,370.76
+INV0478,Rice,Grocery,B,Vijayawada,Member,2,116.43,UPI,4.2,232.86
+INV0479,Rice,Grocery,B,Vijayawada,Member,1,101.74,Cash,3.4,101.74
+INV0480,Tea,Beverages,A,Hyderabad,Normal,1,93.43,E-wallet,3.6,93.43
+INV0481,Coffee,Beverages,C,Mumbai,Member,4,198.18,UPI,3.4,792.72
+INV0482,Bread,Bakery,C,Mumbai,Normal,6,38.98,Cash,3.2,233.88
+INV0483,Juice,Beverages,C,Mumbai,Member,2,78.0,Credit card,4.7,156.0
+INV0484,Bread,Bakery,B,Vijayawada,Normal,2,40.37,Cash,4.5,80.74
+INV0485,Cheese,Dairy,A,Hyderabad,Normal,3,154.03,UPI,4.7,462.09
+INV0486,Tea,Beverages,C,Mumbai,Normal,3,98.74,Cash,4.0,296.22
+INV0487,Tea,Beverages,B,Vijayawada,Member,2,100.86,UPI,4.5,201.72
+INV0488,Bread,Bakery,A,Hyderabad,Member,1,40.09,Cash,2.8,40.09
+INV0489,Juice,Beverages,B,Vijayawada,Member,4,75.38,Credit card,4.6,301.52
+INV0490,Juice,Beverages,C,Mumbai,Normal,3,78.35,Credit card,4.1,235.05
+INV0491,Rice,Grocery,B,Vijayawada,Member,3,105.52,UPI,4.4,316.56
+INV0492,Rice,Grocery,C,Mumbai,Member,2,105.26,E-wallet,4.3,210.52
+INV0493,Rice,Grocery,C,Mumbai,Member,6,101.68,UPI,3.3,610.08
+INV0494,Bread,Bakery,A,Hyderabad,Member,4,45.08,Credit card,3.0,180.32
+INV0495,Snacks,Snacks,C,Mumbai,Member,3,36.18,Cash,3.5,108.54
+INV0496,Juice,Beverages,B,Vijayawada,Member,2,76.63,E-wallet,4.4,153.26
+INV0497,Tea,Beverages,C,Mumbai,Member,5,98.71,UPI,4.5,493.55
+INV0498,Rice,Grocery,A,Hyderabad,Normal,6,110.56,UPI,3.0,663.36
+INV0499,Coffee,Beverages,C,Mumbai,Member,1,184.29,Cash,3.3,184.29
+INV0500,Juice,Beverages,A,Hyderabad,Member,6,74.39,UPI,3.5,446.34

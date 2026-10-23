@@ -1,0 +1,133 @@
+{
+  "project_metadata": {
+    "project_title": "Supermarket Sales Analysis",
+    "organization": "IBM Data Analytics Project",
+    "dataset_source": "supermarket_sales_500_sample_transactions.csv",
+    "dataset_type": "Synthetic sample transactions for workflow demonstration",
+    "has_date_column": false
+  },
+  "core_kpis": {
+    "total_transactions": 500,
+    "total_sales_inr": 142645.31,
+    "average_transaction_inr": 285.29,
+    "median_transaction_inr": 225.56,
+    "total_units_sold": 1720,
+    "average_customer_rating": 4.01,
+    "top_product": "Rice",
+    "top_product_sales_inr": 24340.47,
+    "top_product_sales_share_pct": 17.06,
+    "top_branch": "Branch C (Mumbai)",
+    "top_branch_sales_inr": 54493.85,
+    "top_branch_sales_share_pct": 38.2,
+    "top_category": "Beverages",
+    "top_category_sales_inr": 44793.30,
+    "top_category_sales_share_pct": 31.4,
+    "most_used_payment_method": "UPI",
+    "most_used_payment_transactions": 139,
+    "most_used_payment_share_pct": 27.8
+  },
+  "data_integrity_audit": {
+    "null_values": 0,
+    "duplicate_rows": 0,
+    "formula_mismatches_sales_eq_qty_x_price": 0,
+    "product_to_category_inconsistencies": 0,
+    "branch_to_city_inconsistencies": 0,
+    "iqr_outliers": {
+      "q1_inr": 123.34,
+      "q3_inr": 374.03,
+      "iqr_inr": 250.68,
+      "upper_threshold_inr": 750.05,
+      "outlier_count": 21,
+      "outlier_percentage": 4.2
+    }
+  },
+  "branch_comparison": {
+    "Branch C (Mumbai)": {
+      "revenue_inr": 54493.85,
+      "revenue_share_pct": 38.2,
+      "transactions": 183,
+      "average_basket_inr": 297.78,
+      "average_rating": 4.00
+    },
+    "Branch A (Hyderabad)": {
+      "revenue_inr": 45853.66,
+      "revenue_share_pct": 32.14,
+      "transactions": 166,
+      "average_basket_inr": 276.23,
+      "average_rating": 3.96
+    },
+    "Branch B (Vijayawada)": {
+      "revenue_inr": 42297.80,
+      "revenue_share_pct": 29.65,
+      "transactions": 151,
+      "average_basket_inr": 280.12,
+      "average_rating": 4.08
+    }
+  },
+  "top_and_bottom_products": {
+    "by_revenue": {
+      "top_3": [
+        {"product": "Rice", "revenue_inr": 24340.47, "units": 221},
+        {"product": "Cheese", "revenue_inr": 18049.87, "units": 123},
+        {"product": "Milk", "revenue_inr": 17749.67, "units": 306}
+      ],
+      "bottom_3": [
+        {"product": "Soap", "revenue_inr": 5960.95, "units": 108},
+        {"product": "Bread", "revenue_inr": 7474.38, "units": 178},
+        {"product": "Snacks", "revenue_inr": 8024.05, "units": 228}
+      ]
+    },
+    "by_units_sold": {
+      "top_3": [
+        {"product": "Milk", "units": 306, "revenue_inr": 17749.67},
+        {"product": "Snacks", "units": 228, "revenue_inr": 8024.05},
+        {"product": "Rice", "units": 221, "revenue_inr": 24340.47}
+      ],
+      "bottom_3": [
+        {"product": "Coffee", "units": 86, "revenue_inr": 15909.70},
+        {"product": "Soap", "units": 108, "revenue_inr": 5960.95},
+        {"product": "Cheese", "units": 123, "revenue_inr": 18049.87}
+      ]
+    },
+    "volume_monetary_dichotomy_note": "High unit prices make Cheese and Coffee strong revenue drivers despite low physical unit volumes; conversely, low prices make Snacks high volume but low revenue."
+  },
+  "payment_methods_analysis": {
+    "UPI": {"transactions": 139, "share_pct": 27.8, "total_sales_inr": 43840.69, "avg_basket_inr": 315.40},
+    "Cash": {"transactions": 126, "share_pct": 25.2, "total_sales_inr": 35879.19, "avg_basket_inr": 284.76},
+    "Credit card": {"transactions": 125, "share_pct": 25.0, "total_sales_inr": 34455.74, "avg_basket_inr": 275.65},
+    "E-wallet": {"transactions": 110, "share_pct": 22.0, "total_sales_inr": 28469.69, "avg_basket_inr": 258.82}
+  },
+  "customer_type_analysis": {
+    "Member": {"count": 274, "share_pct": 54.8, "mean_spend_inr": 292.26, "median_spend_inr": 224.17, "std_inr": 224.47},
+    "Normal": {"count": 226, "share_pct": 45.2, "mean_spend_inr": 276.84, "median_spend_inr": 227.84, "std_inr": 189.38},
+    "welch_t_test": {
+      "test_name": "Two-sample Welch's t-test (unequal variances)",
+      "t_statistic": 0.8334,
+      "p_value": 0.4050,
+      "alpha": 0.05,
+      "statistically_significant": false,
+      "plain_language_takeaway": "The ₹15.42 higher average spend by loyalty members is not statistically significant (p=0.405 > 0.05). Membership currently does not produce larger transaction basket sizes."
+    }
+  },
+  "correlation_analysis": {
+    "rating_vs_sales_inr": {"pearson_r": 0.0130, "p_value": 0.7722, "significant": false},
+    "rating_vs_quantity": {"pearson_r": -0.0017, "p_value": 0.9702, "significant": false},
+    "interpretation": "Customer ratings are virtually independent of basket price and quantity purchased."
+  },
+  "pareto_revenue_concentration": {
+    "top_3_products_pct": 42.16,
+    "top_5_products_pct": 64.71,
+    "products_ranking": [
+      {"product": "Rice", "revenue_inr": 24340.47, "share_pct": 17.06, "cum_share_pct": 17.06},
+      {"product": "Cheese", "revenue_inr": 18049.87, "share_pct": 12.65, "cum_share_pct": 29.72},
+      {"product": "Milk", "revenue_inr": 17749.67, "share_pct": 12.44, "cum_share_pct": 42.16},
+      {"product": "Shampoo", "revenue_inr": 16252.62, "share_pct": 11.39, "cum_share_pct": 53.55},
+      {"product": "Coffee", "revenue_inr": 15909.70, "share_pct": 11.15, "cum_share_pct": 64.71},
+      {"product": "Tea", "revenue_inr": 15260.96, "share_pct": 10.70, "cum_share_pct": 75.41},
+      {"product": "Juice", "revenue_inr": 13622.64, "share_pct": 9.55, "cum_share_pct": 84.96},
+      {"product": "Snacks", "revenue_inr": 8024.05, "share_pct": 5.63, "cum_share_pct": 90.58},
+      {"product": "Bread", "revenue_inr": 7474.38, "share_pct": 5.24, "cum_share_pct": 95.82},
+      {"product": "Soap", "revenue_inr": 5960.95, "share_pct": 4.18, "cum_share_pct": 100.00}
+    ]
+  }
+}
